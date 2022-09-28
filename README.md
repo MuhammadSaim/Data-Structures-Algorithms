@@ -7,8 +7,12 @@ Hey.! I'm studnig and learning DSA from the scratch and I hope this repo will he
 ## Topics
 
 - Patterns
-  - [Pattern One](./Patterns/Pattern1.cpp)
-  - [Pattern Two](./Patterns/Pattern2.cpp)
+  - [Pattern #01](./Patterns/Pattern1.cpp)
+  - [Pattern #02](./Patterns/Pattern2.cpp)
+  - [Pattern #03](./Patterns/Pattern3.cpp)
+  - [Pattern #04](./Patterns/Pattern4.cpp)
+  - [Pattern #05](./Patterns/Pattern5.cpp)
+  - [Pattern #06](./Patterns/Pattern6.cpp)
 
 ## Study Resources
 

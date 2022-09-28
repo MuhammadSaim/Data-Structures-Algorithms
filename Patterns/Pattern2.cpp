@@ -13,7 +13,8 @@ using namespace std;
  *
  * @return int
  */
-int main(){
+int main()
+{
 
     int rows, cols, input;
 
@@ -22,23 +23,23 @@ int main(){
 
     rows = 1;
 
-    while(rows <= input){
+    while (rows <= input)
+    {
 
         cols = 1;
 
-        while(cols <= input){
+        while (cols <= input)
+        {
 
             cout << rows;
 
             cols = cols + 1;
-
         }
 
         cout << endl;
 
         rows = rows + 1;
     }
-
 
     return 0;
 }

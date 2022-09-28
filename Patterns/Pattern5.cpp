@@ -6,23 +6,22 @@ using namespace std;
  * get the input from the user and whil display NxN stars
  * according to the input if input is 4 the output will be like this
  *
- *      ****
- *      ****
- *      ****
- *      ****
+ *      1 2 3 4
+ *      5 6 7 8
+ *      9 10 11 12
+ *      13 14 15 16
  *
  * @return int
  */
-
 int main()
 {
 
-    int rows, cols, input;
+    int rows, cols, input, count;
 
     cout << "Enter the value for NxN: ";
     cin >> input;
 
-    rows = 1;
+    rows = count = 1;
 
     while (rows <= input)
     {
@@ -31,8 +30,11 @@ int main()
 
         while (cols <= input)
         {
-            cout << "*";
+
+            cout << count << " ";
+
             cols = cols + 1;
+            count = count + 1;
         }
 
         cout << endl;

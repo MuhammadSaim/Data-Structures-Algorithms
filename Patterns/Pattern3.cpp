@@ -6,14 +6,13 @@ using namespace std;
  * get the input from the user and whil display NxN stars
  * according to the input if input is 4 the output will be like this
  *
- *      ****
- *      ****
- *      ****
- *      ****
+ *      1234
+ *      1234
+ *      1234
+ *      1234
  *
  * @return int
  */
-
 int main()
 {
 
@@ -31,7 +30,8 @@ int main()
 
         while (cols <= input)
         {
-            cout << "*";
+            cout << cols;
+
             cols = cols + 1;
         }
 

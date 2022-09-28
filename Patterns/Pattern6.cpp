@@ -3,23 +3,23 @@
 using namespace std;
 
 /**
- * get the input from the user and whil display NxN stars
- * according to the input if input is 4 the output will be like this
+ * get the input from the user and whil display stars triangle
+ * according to the input if input is 5 the output will be like this
  *
- *      ****
- *      ****
- *      ****
- *      ****
+ *  *
+ *  **
+ *  ***
+ *  ****
+ *  *****
  *
  * @return int
  */
-
 int main()
 {
 
     int rows, cols, input;
 
-    cout << "Enter the value for NxN: ";
+    cout << "Enter the input for triangle pattern: ";
     cin >> input;
 
     rows = 1;
@@ -29,9 +29,11 @@ int main()
 
         cols = 1;
 
-        while (cols <= input)
+        while (cols <= rows)
         {
+
             cout << "*";
+
             cols = cols + 1;
         }
 
